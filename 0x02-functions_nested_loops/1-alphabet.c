@@ -1,12 +1,14 @@
+#include "main.h"
 #include<stdio.h>
 /**
- * main - printing the alphabet in lower case
+ * print_alphabet - make alphabet
  *
  * Return: o (success)
  */
-int main(void)
+void print_alphabet(void)
+
 {
-	int ch = 'a';
+	char ch = 'a';
 
 	while (ch <= 'z')
 	{
@@ -14,5 +16,5 @@ int main(void)
 		ch++;
 	}
 	putchar('\n');
-	return (0);
+
 }
