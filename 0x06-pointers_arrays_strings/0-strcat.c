@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strcat - append src to the dest string
+ * _strcat - appends src to the dest string
  * @dest: string to append by src
- * @src: string ton append to dest
+ * @src: string to append to dest
  *
- * return: adress of dest
+ * Return: address of dest
  */
 char *_strcat(char *dest, char *src)
 {
@@ -15,7 +15,6 @@ char *_strcat(char *dest, char *src)
 	while (*(dest + i))
 		i++;
 	while ((*(dest + i) = *(src + j)))
-
 	{
 		i++;
 		j++;
